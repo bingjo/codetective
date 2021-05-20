@@ -1,0 +1,283 @@
+.UploadFile{
+    /* Параметры всей страницы */
+    margin: auto;
+    margin-top: -15px;
+    width: 1140px;
+    /* height: 750px; */
+    height: 900px;
+}
+
+.TitleUploadFile{
+    /* Заголвок страницы */
+    text-align: center;
+    font: 30px Montserrat, sans-serif;
+	font-weight: bold;
+    color: #111111;
+    margin-bottom: 30px;
+}
+
+.UploadFile hr{
+    margin: auto;
+}
+
+.DescriptionUploadFile{
+    /* Описание */
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    font: 16px Roboto, sans-serif;
+    color: #111111;
+    line-height: 1.7;
+}
+
+.OneFot{
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.OneFot a{
+    font: 16px Roboto, sans-serif;
+    font-weight: bold;
+    color: #704bd4;
+    line-height: 1.7;
+}
+
+.OneFot label{
+    font: 16px Roboto, sans-serif;
+    font-weight: bold;
+    color: #704bd4;
+    line-height: 1.7;
+}
+
+.MainUploadFile{
+    /* Поле с вводом данных и загрузкой файлов */
+    margin: auto;
+    height: 380px;
+}
+
+.Left{
+    /* Левая часть */
+    float: left;
+    width: 430px;
+}
+
+.UlTopStyle{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #704bd4;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.TopPStype{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 25px;
+    text-align: left;
+    font: 18px Roboto, sans-serif;
+	font-weight: bold;
+    color: white;
+}
+
+.TopInputStyle{
+    /* Задаются размеры и убираются рамки */
+    float: right;
+    width: 180px;
+    height: 60px;
+    outline: none;
+    border: none;
+    margin-right: -1px;
+    /* Задаются цвет фона и форма */
+    background: white;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+    /* Задаются параметры текста */
+    text-align: center;
+    font: 18px Roboto, sans-serif;
+    color: #5b5b5b;
+}
+
+.UlDownStyle{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: white;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.DownPStype{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 25px;
+    text-align: left;
+    font: 18px Roboto, sans-serif;
+    color: black;
+}
+
+.DownSelectStyle{
+    /* Задаются размеры и убираются рамки */
+    float: right;
+    width: 180px;
+    height: 60px;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-right: -2px;
+    /* Задаются цвет фона и форма */
+    background: url(images/bgSelect.png) no-repeat;
+    /* background: #704bd4; */
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+    /* Задаются параметры текста */
+    text-align-last: center;
+    font: 18px Roboto, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.Right{
+    float: right;
+    width: 530px;
+}
+
+.UlUploadFileStyle{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.LiRightUploadFileStyle{
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    padding-right: 14px;
+}
+
+.PUlpoadFileStyle{
+    font-weight: 600;
+    width: 68px;
+}
+
+.InputStyle{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.LabelStyle{
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+    background: #704bd4;
+    border: 2px solid #704bd4;
+    width: 247px;
+    height: 58px;
+    text-align: center;
+    font: 18px Roboto, sans-serif;
+    color: white;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.LabelStyle:hover{
+    color: #704bd4;
+    background-color: transparent;
+    border: 2px solid #704bd4;
+}
+
+
+.UploadFileName{
+    color: #656565;
+}
+
+.MainButtonUploadFile{
+    display: table-cell;
+    vertical-align: middle;
+    background: transparent;
+    cursor: pointer;
+    border: 3px solid #704bd4;
+    width: 345px;
+    height: 60px;
+    text-align: center;
+    color: #704bd4;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.MainButtonUploadFile:hover{
+    background: #704bd4;
+    color: white;
+}
+
+.UploadFileStatus{
+    padding-top: 7px;
+    margin: auto;
+    color: #656565;
+    text-align-last: center;
+    font: 18px Roboto, sans-serif;
+}
+
+.Process{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    color: #656565;
+}
+
+.NavigationButtons{
+    padding-top: 50px;
+    margin: auto;
+    height: 100px;
+    width: 462px;
+}
+
+.NavigationButtons li {
+    display: table-cell;
+}
+
+.ButtonNext{
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    border: 3px solid #704bd4;
+    text-align: center;
+    background: #704bd4;
+    color: white;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.ButtonNext:hover{
+    height: 60px;
+    color: #704bd4;
+    background: transparent;
+}

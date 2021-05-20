@@ -1,0 +1,108 @@
+/* Линии в шапке и анимация */
+
+.Burger{
+    float: right;
+    width: 20px;
+    height: 37px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.Burger input{
+    display: none;
+}
+
+.BurgerLine{
+    z-index: 2;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    height: 27px;
+}
+
+.B1, .B2, .B3, .B4{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    transition: 0.3s;
+}
+
+.B1{
+    margin-top: 6px;
+}
+
+.B2, .B3{
+    margin-top: 12px;
+}
+
+.B4{
+    margin-top: 18px;
+}
+
+/* .Burger input:checked ~ .B2{
+    transform: rotate(45deg);
+}
+
+.Burger input:checked ~ .B3{
+    transform: rotate(-45deg);
+}
+
+.Burger input:checked ~ .B1{opacity: 0;}
+
+.Burger input:checked ~ .B4{opacity: 0;} */
+
+/* Вплывающее меню */
+
+.BurgerMenu{
+    position: relative;
+    display: block;
+    transform: translateY(26px);
+    z-index: 999999;
+    float: right;
+    margin-right: -10px;
+    height: 250px;
+    width: 262px;
+    background-color: #eff4fd;
+    -o-border-radius: 20px 0 0 20px;
+	-moz-border-radius: 20px 0 0 20px;
+	-webkit-border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 20px;
+    transition: .5s all; /*Скорость перехода состояния элемента*/
+}
+
+.P_Style_Burger{
+    display: block;
+    width: 232px;
+    font-weight: bold;
+    background-color: #eff4fd;
+    border-bottom: 1px solid #9d9d9d;
+    padding: 12px 0 12px 30px;
+    -o-border-radius: 20px 0 0;
+	-moz-border-radius: 20px 0 0;
+	-webkit-border-radius: 20px 0 0;
+	border-radius: 20px 0 0;
+}
+
+.A_Style_Burger{
+    display: block;
+    width: 232px;
+    color: black;
+    padding: 12px 0 12px 30px;
+    background-color: #eff4fd;
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.A_Style_Burger:hover{
+	color: white;
+	background-color: #c1c6cf;
+}
+
+.Burger input:checked ~ .BurgerMenu{
+    opacity:1;
+    transition: .5s;
+}
+
+
+

@@ -1,0 +1,74 @@
+.Education{
+    margin: auto;
+    width: 1140px;
+    height: 750px;
+}
+
+.resImage{
+    float: left;
+}
+
+.Dowloand{
+    float: left;
+    padding-top: 116px;
+    padding-left: 100px;
+    height: auto;
+    width: 294px;
+}
+
+.Title{
+    text-align: center;
+	font: 30px Montserrat, sans-serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.Discription{
+    text-align: center;
+    margin-bottom: 30px;
+	font: 16px Roboto, sans-serif;
+}
+
+.idModel{
+    text-align: center;
+    margin-bottom: 10px;
+    font: 16px Roboto, sans-serif;
+}
+
+.idModel a{
+    color: #704bd4;
+    cursor: pointer;
+}
+
+.DowloandButton{
+	font: 14px Roboto, sans-serif;
+	font-weight: bold;
+	background: #704bd4;
+	color: #ffffff;
+	padding: 21px 83px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.DowloandButton:hover{
+    background: #d2e2fc;
+	color: #704bd4;
+    border: 3px solid #704bd4;
+    padding: 18px80px;
+}
+
+.DowloandP{
+    text-align: center;
+    margin-top: 51px;
+    color: #656565;
+    font: 16px Roboto, sans-serif;
+}
+
+.idModel1{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font: 16px Roboto, sans-serif;
+}

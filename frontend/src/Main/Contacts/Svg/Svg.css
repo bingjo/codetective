@@ -1,0 +1,21 @@
+.Svg{
+    float: left;
+}
+
+.WhatsApp{
+    float: left;
+}
+
+.Vk{
+    float: left;
+    margin-left: 22px;
+}
+
+.Insta{
+    float: left;
+    margin-left: 22px;
+}
+
+svg:hover{
+    fill: #6c46d3;
+}

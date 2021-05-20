@@ -1,0 +1,18 @@
+.Development{
+    height: auto;
+	width: 1140px;
+	margin: auto;
+}
+
+.ErrorText{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font: 32px Roboto, sans-serif;
+	font-weight: bold;
+}
+
+.ErrorImg{
+    padding-left: 86px;
+    margin: auto;
+}

@@ -1,0 +1,47 @@
+.HowWorking{
+    margin: auto;
+    margin-top: 80px;
+    width: 1140px;
+    height: 590px;
+}
+
+.HowWorkingTitleText{
+    text-align: center;
+    font: 30px Montserrat, sans-serif;
+	font-weight: bold;
+    color: #111111;
+}
+
+.Top{
+    margin-top: 118px;
+    height: 200px;
+}
+
+.Down{
+    margin-top: 40px;
+    height: 200px;
+}
+
+.LeftLi{
+    float: left;
+    margin-left: 68px;
+}
+
+.RightLi{
+    float: left;
+    /* margin-left: 62px; */
+    margin-left: 104px;
+}
+
+.StepNumber{
+    font: 24px Montserrat, sans-serif;
+    font-weight: bold;
+    padding-bottom: 29px;
+}
+
+.StepDescription{
+    font: 16px Roboto, sans-serif;
+    margin-top: 29px;
+    width: 450px;
+    line-height: 1.8;
+}

@@ -1,0 +1,170 @@
+.Predict{
+    margin: auto;
+    width: 1140px;
+    height: 750px;
+    margin-top: 90px;
+}
+
+.PredictUl{
+    height: 350px;
+    width: 100%;
+}
+
+.PredictLiMain{
+    display: table-cell;
+    width: 380px;
+    float: left;
+    margin-right: 100px;
+}
+
+.PredictLiMainLeft{
+    display: table-cell;
+    height: 100%;
+    width: 650px;
+}
+
+.DiskTitle{
+    margin-bottom: 30px;
+    font: 18px Roboto, sans-serif;
+    line-height: 1.5;
+
+}
+
+.DiskP{
+    margin-bottom: 15px;
+    font: 18px Roboto, sans-serif;
+    line-height: 1.5;
+}
+
+.PredictUlLeft{
+    position: relative;
+    width: 471px;
+    height: 60px;
+    background: #704bd4;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.PredictPStyle{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-left: 25px;
+    text-align: left;
+    font: 18px Roboto, sans-serif;
+	font-weight: bold;
+    color: white;
+}
+
+.PredctInputStyle{
+    /* Задаются размеры и убираются рамки */
+    float: right;
+    width: 280px;
+    height: 60px;
+    outline: none;
+    border: none;
+    margin-right: -1px;
+    /* Задаются цвет фона и форма */
+    background: white;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+    /* Задаются параметры текста */
+    text-align: center;
+    font: 18px Roboto, sans-serif;
+    color: #5b5b5b;
+}
+
+.UlUploadFileStyle{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.UlUploadFileStyle li{
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.PUlpoadFileStyle{
+    font: 18px Roboto, sans-serif;
+    font-weight: bold;
+    width: 220px;
+}
+
+.InputFileStyle{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.LabelStyle{
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+    background: #704bd4;
+    border: 2px solid #704bd4;
+    width: 247px;
+    height: 58px;
+    text-align: center;
+    font: 18px Roboto, sans-serif;
+    color: white;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.LabelStyle:hover{
+    color: #704bd4;
+    background-color: transparent;
+    border: 2px solid #704bd4;
+}
+
+.MainButtonUploadFile{
+    display: table-cell;
+    vertical-align: middle;
+    background: transparent;
+    cursor: pointer;
+    border: 3px solid #704bd4;
+    width: 345px;
+    height: 60px;
+    text-align: center;
+    color: #704bd4;
+    -o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.MainButtonUploadFile:hover{
+    background: #704bd4;
+    color: white;
+}
+
+.Process{
+    margin-top: 10px;
+}
+
+.ProcessTitle{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.ProcessAuthor{
+    margin-bottom: 10px;
+}
+
+.ProcessAuthorWin{
+    margin-bottom: 10px;
+    color: #704bd4;
+    font-weight: bold;
+}

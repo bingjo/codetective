@@ -1,0 +1,18 @@
+.SectionCenter{
+    float: left;
+  	width: 360px;
+    height: 257px;
+  	background-color: #fff;
+  	margin: 0 15px 0 15px;
+  	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.SectionCenter:hover{
+    float: left;
+	color: #fff;
+  	background-color: #6c46d3;
+  	fill: #fff;
+}

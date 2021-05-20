@@ -1,0 +1,24 @@
+.Layout{
+    width: 100%;
+	margin: 0 auto;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background: #d2e2fc;
+	font: 18px Roboto, sans-serif;
+	font-weight: 400;
+	padding: 62px 0 38px;
+}

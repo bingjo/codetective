@@ -1,0 +1,57 @@
+.AboutUsBg{
+    margin: auto;
+    margin-top: 120px;
+    background: url('./images/about-us-bg.png') no-repeat;
+    height: 885px;
+    /* width: 1920px; */
+}
+
+.AboutUs{
+    width: 1140px;
+    margin: auto;
+    padding-top: 76px;
+    height: 809px;
+}
+
+.H1Style{
+    margin-bottom: 41px;
+}
+
+.H1LiStyle{
+	display: table-cell;
+	font: 36px Roboto, sans-serif;
+	font-weight: bold;
+}
+
+.AboutUsTitleText{
+    text-align: center;
+    font: 30px Montserrat, sans-serif;
+	font-weight: bold;
+    color: #111111;
+    margin-bottom: 41px;
+}
+
+.LeftLi{
+    float: left;
+}
+
+.RightLi{
+    float: left;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.RightLi img{
+    margin-bottom: 25px;
+}
+
+.RightLi hr{
+    margin-bottom: 25px;
+}
+
+.AboutUSDescription{
+    width: 365px;
+    font: 16px Roboto, sans-serif;
+    color: white;
+    line-height: 1.8;
+}

@@ -1,0 +1,80 @@
+.FirstWindowTrain{
+    position: relative;
+    width: 1140px;
+    height: 680px;
+}
+
+.PersonImg{
+	position: absolute;
+	float: left;
+	margin-left: -68px;
+}
+
+.TextAndButton{
+	float: right;
+	height: 680px;
+	width: 480px;
+}
+
+.TitleFirstPage{
+	text-align: center;
+	margin-top: 180px;
+	font: 30px Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.TextFirstPage{
+	text-align: center;
+	margin-top: 46px;
+	font: 16px Roboto, sans-serif;
+	line-height: 25px;
+}
+
+.P_Style_ToGuide{
+	margin-top: 70px;
+	text-align: center;
+}
+
+.ToGuide{
+    bottom: 15px;
+	font: 14px Roboto, sans-serif;
+	font-weight: bold;
+	background: #704bd4;
+	color: #ffffff;
+	padding: 21px 97px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.ToGuide:hover{
+    background: #d2e2fc;
+	color: #704bd4;
+	border: 3px solid #704bd4;
+}
+
+.P_Style_NoGuide{
+	margin-top: 75px;
+	text-align: center;
+}
+
+.NoGuide{
+	cursor: pointer;
+    bottom: 15px;
+	font: 14px Roboto, sans-serif;
+	font-weight: bold;
+	background: #d2e2fc;;
+	color: #704bd4;
+	padding: 21px 59px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 3px solid #704bd4;
+}
+
+.NoGuide:hover{
+    background: #704bd4;
+	color: #ffffff;
+}

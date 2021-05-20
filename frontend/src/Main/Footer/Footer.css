@@ -1,0 +1,101 @@
+.FooterBg{
+    margin: auto;
+    margin-bottom: -41px;
+    background: url('./images/footer-bg.png') no-repeat;
+    height: 484px;
+    /* width: 1920px; */
+}
+
+.Footer{
+    width: 1140px;
+    margin-top: 310px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.Logo{
+    cursor: pointer;
+    float: left;
+    padding-left: 45px;
+}
+
+.H1LiStyle{
+	display: table-cell;
+	font: 32px Roboto, sans-serif;
+	font-weight: bold;
+}
+
+.Logo hr{
+    margin-top: 20px;
+}
+
+.P_Style_Footer{
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.A_Style_Footer{
+    position: relative;
+    font: 16px Roboto, sans-serif;
+    color: white;
+}
+
+.A_Style_Footer:after {
+    display: block;
+    position: absolute;
+	left: 0;
+	width: 0;
+	height: 1px;
+	background-color: #6c46d3;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.A_Style_Footer:hover:after,
+.A_Style_Footer:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.FirstСolumn{
+    float: left;
+    margin-left: 126px;
+}
+
+.SecondColumn{
+    float: left;
+    margin-left: 161px;
+}
+
+.ThirdСolumn{
+    float: left;
+    margin-left: 130px;
+}
+
+.ThirdTextFooter{
+    font: 20px Montserrat, sans-serif;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.Started{
+	font: 10px Roboto, sans-serif;
+	font-weight: bold;
+	background: #704bd4;
+	color: #ffffff;
+	padding: 14px 40px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.Started:hover{
+	background: transparent;
+	color: #704bd4;
+	border: 2px solid #704bd4;
+}

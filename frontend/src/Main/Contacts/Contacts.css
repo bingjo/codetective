@@ -1,0 +1,54 @@
+.Contacts{
+    width: 1140px;
+    margin: auto;
+    padding-top: 33px;
+}
+
+.ContactsTitleText{
+    text-align: center;
+    font: 30px Montserrat, sans-serif;
+	font-weight: bold;
+    color: #111111;
+    margin-bottom: 75px;
+}
+
+.HR{
+    margin-top: 23px;
+    margin-bottom: 23px;
+    size: 1px;
+    width: 70px;
+    color: #6c46d3;
+}
+
+.ViewContacts{
+    font: 20px Montserrat, sans-serif;
+    font-weight: bold;
+    color: #111111;
+}
+
+.ContactsDescription a{
+    font: 18px Roboto, sans-serif;
+    color: #111111;
+    line-height: 1.8;
+}
+
+.PhoneNumber{
+    float: left;
+    margin-left: 45px;
+}
+
+.Email{
+    float: left;
+    margin-left: 129px;
+}
+
+.Adress{
+    float: left;
+    margin-left: 125px;
+}
+
+
+.SocialNetworks{
+    float: left;
+    margin-left: 53px;
+}

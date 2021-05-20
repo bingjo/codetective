@@ -1,0 +1,54 @@
+.Advantages{
+    margin: auto;
+    margin-top: 140px;
+    background: url('advantages-bg.png') no-repeat;
+	height: 525px;
+	/* width: 1920px; */
+}
+
+.AdvantagesTitle{
+    width: 1140px;
+    height: 525px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.AdvantagesTitleText{
+    text-align: center;
+    font: 30px Montserrat, sans-serif;
+	font-weight: bold;
+    color: #111111;
+    margin-bottom: 87px;
+}
+
+.UlAdvantages{
+	margin: 40px 34px 0;
+	font: 24px Montserrat, sans-serif;
+	font-weight: bold;
+}
+
+.HeadingAdvantages{
+	float: left;
+	height: 60px;
+	width: 190px;
+}
+
+.ImgAdvantages{
+	float: right;
+	height: 60px;
+	width: 63px;
+}
+
+.ImgAdvantages svg{
+	float: right;
+	padding: 2px 0 0;
+}
+.ImgAdvantages svg:hover{
+	fill: white;
+}
+
+.DescriptionAdvantages{
+	float: left;
+	margin: 35px 34px 0;
+	font: 16px Roboto, sans-serif;
+}

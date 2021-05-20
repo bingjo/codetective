@@ -1,0 +1,23 @@
+version: "3"
+services:
+
+  backend:
+  
+    build: backend/
+#    command: bash -c "source backend/bin/activate && pip3 install -r backend/requirements.txt && cd backend/bis1702 && python3 manage.py runserver 0.0.0.0:8000"
+    command: bash -c "source backend/bin/activate && cd backend/bis1702 && python3 manage.py runserver 0.0.0.0:8000"
+    ports:
+      - 8000:8000
+    volumes:
+      - ./backend/:/backend
+  frontend:
+
+    build: frontend/
+    command: bash -c "cd frontend && npm start"
+    ports:
+      - 3000:3000
+    tty: true
+    volumes:
+      - ./frontend/:/frontend
+    depends_on:
+      - backend

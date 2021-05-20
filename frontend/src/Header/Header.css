@@ -1,0 +1,55 @@
+.Head{
+	height: 37px;
+	width: 1140px;
+	margin: auto;
+}
+
+/* .Head h1{
+	float: left;
+	margin: 0;
+	font-size: 0em;
+} */
+
+.H1Style{
+	float: left;
+	width: auto;
+}
+
+.H1LiStyle{
+	display: table-cell;
+	font: 32px Roboto, sans-serif;
+	font-weight: bold;
+}
+
+
+.Head nav{
+	height: 37px;
+	line-height: 37px;
+	text-align: left;
+	display: inline-block;
+	padding: 0 0 0 170px;
+}
+
+.Head nav li{
+	height: 37px;
+	float: left;
+	margin: 0;
+}
+
+.Head nav li a{
+	color: #000000;
+	padding: 8.5px 20px;
+}
+
+.Head nav li a:hover{
+	background: #704bd4;
+	color: #ffffff;
+	-o-border-radius: 17px;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+}
+
+/* Burger{
+	position: absolute;
+} */
